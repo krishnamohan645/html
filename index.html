@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <center><h1><U>SIGNUP FORM</U></h1></center>
+    <form >
+        <label for="Fname">First Name:</label><br>
+        <input type="text" id="Fname" name="Firstname" placeholder="Enter your First name" required><br><br>
+        <label for="Sname">Second Name:</label><br>
+        <input type="text" id="Sname" name="Secondname" placeholder="Enter your Second name" required><br><br>
+        <label for="mail">Gmail:</label><br>
+        <input type="email" id="mail" name="email" placeholder="Enter your gmail" required><br><br>
+        <label for="city">City:</label><br>
+        <input type="text" value="hyderabad" id="city" disabled><br><br>
+        <label for="mobile">Mobile No:</label><br>
+        <input type="tel" id="mobile" name="number" pattern="[0-9]{10}" placeholder="Enter your number" required><br><br>
+        <label for="resume">Select Files:</label><br>
+        <input type="file" id="resume" name="Document" multiple><br><br>
+        <label for="dob">Date Of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="link">Url:</label><br>
+        <input type="url" name="link" id="link" placeholder="Paste your linkedin url" required><br><br>
+        <label for="clr">Select your favourite color:</label><br>
+        <input type="color" id="clr" name="color">
+        <input type="submit"><br><br>
+        <label for="vol">Volume between 0 to 100:</label><br>
+        <input type="range" id="vol" name="vol"><br><br>
+        <input type="submit"><br>
+        <p>Please select your age:</p>
+        <input type="radio" value="20" id="age1" name="age">
+        <label for="age1">0-20</label><br>
+        <input type="radio" value="40" id="age2" name="age">
+        <label for="age2">21-40</label><br>
+        <input type="radio" value="60" id="age3" name="age">
+        <label for="age3">41-60</label><br><br>
+        <label for="skills">Please select your language</label><br>
+        <select name="skills" id="select">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JAVASCRIPT</option>
+            <option value="react">REACT</option>
+            <option value="python">PYTHON</option>
+            <option value="java">JAVA</option>
+        </select><br><br>
+        <label for="pswd">Password:</label><br>
+        <input type="password" id="pswd" name="password" placeholder="Enter your password" required><br><br>
+        <p>Recheck the above details:</p>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Firsname</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Secondname</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Gmail</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Mobile No</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Date of birth</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Url</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Age</label><br>
+        <input type="checkbox" id="check" name="check">
+        <label for="check">Password</label><br><br>
+        <button>RESET</button>
+        <button>SUBMIT</button>
+    </form>
+    </fieldset>
+</body>
+</html>
